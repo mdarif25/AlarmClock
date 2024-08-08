@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlarmClock</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="AlarmClock">
+        <div class="image"><img src="./Assets/alarm1.jpg" alt="clock">
+        
+        </div>
+        <h1 id="currentTime"></h1>
+        <div class="setTime">
+            <span id="meridiem"></span>
+      </div>
+       <div class="alarmTime">
+            <div class="Hour">
+                <input type="text" placeholder="hours" id="h">
+            </div>
+            <div class="Minute">
+                <input type="text" placeholder="minutes" id="m">
+            </div>
+            
+        </div>
+         <audio src="./Assets/mixkit-classic-alarm-995.wav" id="alarmSound"></audio>
+         <button class="button">Set Alarm</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
