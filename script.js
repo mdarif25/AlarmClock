@@ -29,20 +29,7 @@ let set_alarm=document.querySelector("button")
 set_alarm.addEventListener("click",()=>{
     setAlarm();
 })
-// let sound=document.querySelector("#alarmSound")
-// let checkInterval=setInterval(()=>{
-//     let hour=h.value;
-//           let minute=m.value;
-//           let currentDate=new Date()
-//             if(hour==currentDate.getHours()){
-//             if(minute==currentDate.getMinutes()){
-//                  sound.play()
-//                 // console.log("match")
-//                 clearInterval(checkInterval)
 
-//              }
-//             }
-// },1000)
 
 
     
